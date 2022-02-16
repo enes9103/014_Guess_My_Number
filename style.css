@@ -1,0 +1,203 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5267ce;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    background-image: url(./backroundimage.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    margin-top: 4rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 19rem;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 7rem;
+
+}
+
+.container2{
+    margin-left: 72rem;
+
+    border: #FED0AF 3px solid;
+    background-color: #CBCECC;
+    opacity: 0.3;
+    border-radius: 20px;
+    box-shadow: 4px 4px 1px 1px;
+}
+.container2:hover{
+    opacity: 0.6;
+    box-shadow: 5px 5px 1px 1px;
+}
+
+
+.again__button{
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+
+.again__button:hover {
+    background-color: #616EB2;
+    color: white;
+}
+
+.check__button {
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    margin-left: -5rem;
+}
+.check__button:hover {
+    background-color: #616EB2;
+    color: white;
+}
+
+.exact__number1 {
+    width: 110%;
+    height: 20rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: -5rem;
+}
+
+.score {
+    width: 13rem;
+    height: 18rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+p{
+    color: black;
+    margin-top: 2rem;
+}
+#generalscore, #hightscore{
+    border: 1px #dfcda1 solid;
+    box-shadow: 4px 2px 0px 0px;
+    font-size: 1.7rem;
+}
+
+#number {
+    height: 7rem;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 7rem;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    margin-left: -2rem;
+    padding-left: 1rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+#exact__number2{
+    height: 10rem;
+    border-radius: 10px;
+    width: 10rem;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    margin-top: 1rem;
+    background-color: #FFEEC2;
+    border: 1px #dfcda1 solid;
+    
+}
+
+.soru {
+    width: 10rem;
+    background-color: #FFEEC2;
+    color: black;
+    height: 10rem;
+    position: relative;
+    z-index: 1;
+    top: -50%;
+    left: 1.8rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px #dfcda1 solid;
+    box-shadow: 4px 4px 0px 0px #616EB2;
+}
+
+.guessh2 {
+    margin-top: -9rem;
+    font-size: 1.3rem;
+}
+.guessh3{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.heading{
+    display:block;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-left: 24rem;
+    width: 50%;
+    border-radius:6px;
+    outline-style:auto;
+    outline-color: grey;
+}
+.heading h1{
+    padding-top: 1rem;
+}
+.titleimage{
+    width: 100px;
+    float: left;
+    margin-top: -12px;
+    margin-bottom: -13px;
+}
+.writing{
+    margin-left: -9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    text-align: center;
+} 
+.true-false{
+    text-align: center;
+    height: 4rem;
+    width: 17rem;
+    margin-left: -1.3rem;
+}
+.cong{
+    margin-top: 4rem;
+}
