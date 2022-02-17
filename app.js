@@ -11,11 +11,16 @@ let cong = document.querySelector(".cong");
 
 
 //Events
+window.addEventListener("load", loadNumber);
 checkButton.addEventListener("click", check1);
 againButton.addEventListener("click", again);
 
 
 //Functions
+function loadNumber() {
+    exactNumber.value = Math.floor(Math.random()*101);   
+}
+
 function check1() {
     if (number.value == exactNumber.value) {
         trueFalse.innerHTML = "Congratulations You know it."
